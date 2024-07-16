@@ -59,6 +59,7 @@ body{
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
+    align-items: center;
     
 }
 
@@ -105,6 +106,77 @@ button{
     background-repeat: no-repeat;
     
 }
+
+/* section logo area start here */
+.logo{
+   max-width: 1110px;
+   margin: 0 auto;
+   margin-top: 70px;
+     
+}
+.logo img{
+    width:150px;
+   padding-left: 50px; 
+    
+}
+/* card section style here */
+.cart-title h4{
+    max-width: 1110px;
+    margin: 0 auto;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+    
+    
+}
+.card{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 147px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.card1{
+    width: 350px;
+    height: 476px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 15px 25px ;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+span{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p{
+    color: rgb(120, 120, 133);
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.8%;
+   
+}
 @media screen and (max-width: 576px) {
     .nav-links {
         display: none;
@@ -143,11 +215,19 @@ button{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-        
-    
+    }
+    .star{
+        text-align: center;
     }
     .camera img{
         width: 100%;
+    }
+
+    .logo{
+      width: 400px; 
+    }
+    .logo img{
+    margin-top: 20px;
+
     }
 }
